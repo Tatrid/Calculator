@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane prefHeight="300.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+<GridPane prefHeight="230.0" prefWidth="300.0">
+    <columnConstraints>
+        <ColumnConstraints maxWidth="116.0" minWidth="72.0" prefWidth="77.0" />
+        <ColumnConstraints fillWidth="false" maxWidth="89.0" minWidth="57.0" prefWidth="76.0" />
+        <ColumnConstraints maxWidth="83.0" minWidth="65.0" prefWidth="72.0" />
+        <ColumnConstraints maxWidth="92.0" minWidth="74.0" prefWidth="76.0" />
+         <ColumnConstraints />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints maxHeight="60.0" minHeight="45.0" prefHeight="60.0" />
+        <RowConstraints maxHeight="69.0" minHeight="54.0" prefHeight="54.0" />
+    </rowConstraints>
+
+    <children>
+
+        <Button mnemonicParsing="false" onMouseClicked="#Button1" prefHeight="87.5" prefWidth="87.5" text="1" />
+        <Button mnemonicParsing="false" onMouseClicked="#Button2" prefHeight="87.5" prefWidth="87.5" text="2" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+        <Button mnemonicParsing="false" onMouseClicked="#Button3" prefHeight="87.5" prefWidth="87.5" text="3" GridPane.columnIndex="2" GridPane.rowIndex="0" />
+        <Button mnemonicParsing="false" onMouseClicked="#Button4" prefHeight="87.5" prefWidth="87.5" text="4" GridPane.rowIndex="1" />
+        <Button mnemonicParsing="false" onMouseClicked="#Button5" prefHeight="87.5" prefWidth="87.5" text="5" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+        <Button mnemonicParsing="false" onMouseClicked="#Button6" prefHeight="87.5" prefWidth="87.5" text="6" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+        <Button mnemonicParsing="false" onMouseClicked="#Button7" prefHeight="87.5" prefWidth="87.5" text="7" GridPane.rowIndex="2" />
+        <Button mnemonicParsing="false" onMouseClicked="#Button8" prefHeight="87.5" prefWidth="87.5" text="8" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+        <Button mnemonicParsing="false" onMouseClicked="#Button9" prefHeight="87.5" prefWidth="87.5" text="9" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+        <Button mnemonicParsing="false" onMouseClicked="#Button0" prefHeight="45.0" prefWidth="78.0" text="0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+        <Button mnemonicParsing="false" onMouseClicked="#ButtonC" prefHeight="87.5" prefWidth="87.5" text="C" GridPane.columnIndex="0" GridPane.rowIndex="3" />
+        <Button mnemonicParsing="false" onMouseClicked="#Button_Point" prefHeight="46.0" prefWidth="76.0" text="." GridPane.columnIndex="2" GridPane.rowIndex="3" />
+        <Button mnemonicParsing="false" onMouseClicked="#Button_Add" prefHeight="62.0" prefWidth="76.0" text="+" GridPane.columnIndex="3" />
+        <Button mnemonicParsing="false" onMouseClicked="#Button_Minus" prefHeight="56.0" prefWidth="76.0" text="-" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+        <Button mnemonicParsing="false" onMouseClicked="#Button_Divide" prefHeight="55.0" prefWidth="76.0" text="/" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+        <Button mnemonicParsing="false" onMouseClicked="#Button_Multiple" prefHeight="50.0" prefWidth="76.0" text="x" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+        <Button mnemonicParsing="false" onMouseClicked="#Button_Equals" prefHeight="122.0" prefWidth="125.0" text="=" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+    </children>
+
+</GridPane>
+   <TextField fx:id="jTextFiel" onKeyPressed="#TextFieldDigit" cache="true" layoutY="230.0" prefHeight="45.0" prefWidth="226.0" promptText="0.0" text=" " />
+
+</Pane>
